@@ -1,0 +1,5 @@
+1- first get the mac address and store it in a variable (any downloaded package remains with the program)
+2- get the instant pc user-name using os library (os.getlogin())
+3- build the email components (subject, body ... etc) and remon as permenant reciver
+4- build send-email functions that accepts all email components as parameters
+5- as soon as the function called it's get the mac address of user's pc then sends it to remon by email
