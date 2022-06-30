@@ -32,7 +32,6 @@ def get_pc_user_name():
 
 # this function checks if a functions works then prints label of the result
 def check_function(is_it_working):
-
     if is_it_working:
         message = Label(root, text="Done!!".upper(), font=("Trebuchet Ms", 20), bg="#dae6f6", fg="#000000")
     else:
