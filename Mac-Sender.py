@@ -81,6 +81,7 @@ password = "amfhzdjssbsvwqxs"
 
 # note: the receiver will be obtained from the input and then passed to the function parameters directly (look button)
 
+
 # the button
 button2 = Button(root, text="Send".upper(), font=("timesnewroman", 15, "bold"), fg="white", bg="gray15", command=lambda:send_email(subject, body, sender, password, enter_text1.get()))
 button2.place(x=225, y=250)
