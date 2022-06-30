@@ -39,7 +39,7 @@ def check_function(is_it_working):
     # place the message
     message.place(x=220, y=300)
 
-    # destroy the message after 4 seconds
+    # destroy the message after 3 seconds from being displayed
     root.after(3000, message.destroy)
 
 
