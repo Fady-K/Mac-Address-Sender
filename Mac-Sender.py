@@ -75,9 +75,9 @@ enter_text1.place(x=150, y=200)
 
 # parameters of send_email function
 subject = f"Mac Address From: {get_pc_user_name()}"
-body = f"Hey Remon!\n\nGetting The Mac Address Of {get_pc_user_name()} WAS A success !!\n\nMac-Address: {get_mac()}\n\nThanks"
-sender = "rregistraionapp@gmail.com"
-password = "zudwzcjqaupbtzvq"
+body = f"Hey Remon!\n\nGetting The Mac Address Of {get_pc_user_name()} WAS A success !!\n\nMac-Address: {get_mac()}\n\nThanks!"
+sender = "macaddresssender@gmail.com"
+password = "amfhzdjssbsvwqxs"
 
 
 # note: the receiver will be obtained from the input and then passed to the function parameters directly (look button)
