@@ -8,7 +8,8 @@ This is a simple python program, aiding in Fetching the Mac Address of a pc wher
 
 GUI is made with Tkinter.\
 The user is asked to enter a valid to send to the provided email within the shown entry in the GUI, Thereafter
-the Mac-Address is fetched via importing getnode() from UUID lib and sent to the provided email via smtplib which is a built-in lib in python.
+the Mac-Address is fetched via importing getnode() from UUID lib and sent to the provided email via smtplib which is a built-in lib in python.\
+The program uses OS Build-in lib to get the user's computer name.
 
 All included libraries\
-smtplib, Tkinter, UUID
+smtplib, Tkinter, UUID, OS
